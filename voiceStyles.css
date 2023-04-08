@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: Poppins, Lato, sans-serif;
+    font-family: Poppins, Playfair Display, Lato, sans-serif;
     background: transparent;
     color: #ffffff;
 }
@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #fff7f2!important;
+    background-color: #E5EDED!important;
 }
 p {font-size: 18px;}
 
@@ -39,6 +39,7 @@ p {font-size: 18px;}
 @media (max-width: 1199.98px) {
     h1 {font-size: 50px;}
     h3 {font-size: 32px;}
+
 }
 
 /* // X-Large devices (large desktops, less than 1400px) */
@@ -46,21 +47,6 @@ p {font-size: 18px;}
     h1 {font-size: 56px;}
     h3 {font-size: 36px;}
     p {font-size: 18px;}
-    .cards {
-        position: relative;
-        bottom: 0px!important;
-    }
-    #fourth-sec {
-        position: relative;
-        bottom: 0px!important;
-        margin-top: 30px!important;
-    }
-    #main-headings {
-        padding-top: 50px!important;
-    }
-    #second-sec {
-        padding: 20px!important;
-    }
 }
 
 /* // XX-Large devices (larger desktops) */
@@ -136,83 +122,47 @@ footer #logo-section a {
 footer li {
     list-style: none;
 }
-/* index.html */
-/* Main Section HomePage Heading and bg image */
-#main-section {
-    background-image: url('imgs/forest.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #cccccc;
-}
-#headings{
-}
-#main-section h3 {
-    color: #ed920f;
-}
-#main-section h1 {
-}
-
-/* Second Section Portfolio Pic and Text */
-#second-sec {
-}
-#second-sec-text {
-    background-color: #fff;
-}
-#second-sec-text h1 {
-    color: #0a403a;
+/* voice.html */
+#voice-section h1 {
+    color: #0A403A;
+    font-family: Playfair Display;
     font-size: 56px;
-    font-family: Playfair Display;
 }
-#second-sec-text h3 {
-    color: #ed920f;
-    font-size: 30px;
-    font-family: Playfair Display;
+.voice img {
+    width: 121px;
+    height: 121px;
+    object-fit: cover;
 }
-#second-sec-text p {
+.voice h4 {
     color: #0A403A;
-    font-size: 18px;
 }
-#second-sec-text button {
-    background-color: #ed920f;
+.voice button {
     color: #fff;
-}
-#second-sec-text #social-links i {
-    color: #0A403A;
-}
-/* Third Section bg image and cards */
-.cards {
-    background-color:#ffffff;
-}
-.cards h1 {
-    color: #0A403A;
-    font-family: Playfair Display;
-    padding: 10px;
-}
-.cards ol li {
-    color: #0A403A;
-}
-.cards button {
     background-color: #ed920f;
-    color: #fff;
+    min-width: 213px;
+    max-width: 213px;
 }
-#card-1 {
-    position: relative;
-    bottom: 250px;
-}
-/* Fourth Section */
-#fourth-sec {
-    margin: 0px 50px 50px 50px;
-    position: relative;
-    bottom: 170px;
-}
-#fourth-sec hr {
-    border: 3px solid #ed920f;
-}
-#fourth-sec h1 {
+.voice p {
     color: #0A403A;
 }
-#fourth-sec span {
-    color: #ed920f;
+.voice span {
+    color: #0A403A;
 }
-/* avatar.html */
+#second-sec p {
+    font-size: 22px;
+    color: #0A403A;
+}
+#second-sec button {
+    color: #fff;
+    background-color: #ed920f;
+    min-width: 150px;
+    max-width: 170px;
+}
+.second-sec-elem p {
+    position: relative;
+    bottom: 300px;
+}
+.second-sec-elem div {
+    position: relative;
+    bottom: 300px;
+}

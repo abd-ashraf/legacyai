@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legacy AI</title>
     <!-- css -->
-    <link href="styles.css" rel="stylesheet">
+    <link href="avatarStyles.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -52,10 +52,11 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav d-flex justify-content-around align-items-center ps-10 pe-10 ms-20 me-10"
                     style="width: 100%">
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#"><span class="bottom-nav-link">Home</span></a>
-                    </li>
                     <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html"><span
+                                class="bottom-nav-link">Home</span></a>
+                    </li>
+                    <li class="nav-item active">
                         <a class="nav-link bottom-nav-link" aria-current="page" href="avatar.html"><span
                                 class="bottom-nav-link">Avatar</span></a>
                     </li>
@@ -95,108 +96,45 @@
         <!-- <i class="fa-solid fa-magnifying-glass form-control-feedback"></i> -->
     </nav>
 
-    <div class="container-fluid">
-        <div id="main-section" class="row d-flex pt-lg-5 pt-0">
-            <!-- <div id="headings" class="text-wrap"> -->
-            <div class="row pt-lg-5"></div>
-            <div class="col-2"></div>
-            <div id="main-headings" class="col-8 d-flex flex-column justify-content-end pt-lg-5">
-                <h3>Leave a trace.</h3>
-                <h1>Upload a picture of yourself and create an Avatar that
-                    can be shared with anyone who wants to talk to you.</h1>
-            </div>
-            <div class="col-2"></div>
-
-            <!-- </div> -->
-        </div>
-        <div id="second-sec" class="row p-5">
-            <div class="col-lg-1 col-0"></div>
-            <div class="col-lg-3 col-0 p-0 d-lg-block d-none">
-                <img src="imgs/fem.webp" class="img-fluid ">
-            </div>
-            <div id="second-sec-text" class="col-lg-7 col-12 pb-3">
+    <div class="container">
+        <div id="avatar-section" class="row">
+            <div class="col-lg-2 col-0"></div>
+            <div class="col-lg-8 col-12 text-center">
                 <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-8">
-                        <br><br>
-                        <h1>Hello</h1>
-                        <h3>My Name is Alexa Young</h3>
-                        <br>
-                        <p>Do you want to leave a trace of yourself for the future generations? Have you
-                            ever wished to
-                            have
-                            a
-                            conversation with somebody who is no longer alive? Are you too shy to see someone you just
-                            met
-                            in a
-                            dating site? Well, now you can at least get some relief. We are not making any miracles
-                            here,
-                            but we
-                            are just trying to give a voice to images.</p>
-                        <br>
-                        <div class="d-lg-flex d-flex flex-lg-row flex-column align-items-center justify-content-around">
-                            <button class="btn float-start">Start Now</button>
-                            <div id="social-links" class="m-2">
-                                <i class="fa-brands fa-facebook me-2"></i>
-                                <i class="fa-brands fa-twitter me-2"></i>
-                                <i class="fa-brands fa-instagram me-2"></i>
-                            </div>
-                        </div>
+                    <h1 class="text-center pt-5 mb-5">How to create your own avatar</h1>
+                    <div id="first-col" class="avatar-cols col-lg-4 col-12 mb-2">
+                        <img src="imgs/avatar/avatar1.webp" class="img-thumbnail rounded-circle">
+                        <h4 class="mt-2">Upload a Portrait Photo</h4>
+                        <button class="btn my-3">Upload (.jpg .jpeg .png)</button>
+                        <p>To get your avatar, you can use any close-up picture of yourself only. However, for the best
+                            result you must stand in front of a basic color background with enough sunlight. Try to use
+                            a flashlight to prevent any shadow appearing behind your head. </p>
                     </div>
-                    <div class="col-2"></div>
-                </div>
-            </div>
-            <div class="col-lg-1 col-0"></div>
-        </div>
-        <div id="third-sec" class="row mt-5">
-            <div class="col-lg-1 col-0"></div>
-            <div class="col-lg-10 col-12">
-                <div class="row">
-                    <img src="imgs/s3-bg.webp" class="d-lg-block d-none">
-                    <div class="d-flex flex-lg-row flex-column justify-content-around align-items-center">
-                        <div id="card-1" class="cards p-5 m-2">
-                            <h1>How to leave a Legacy</h1>
-                            <ol>
-                                <li>Upload a portrait photo and create your Avatar</li>
-                                <li>Record your voice or upload an audio</li>
-                                <li>Train the A.I.</li>
-                                <li>Share your Legacy</li>
-                            </ol>
-                            <div class="text-center">
-                                <button class="btn">Start now</button>
-                            </div>
-                        </div>
-                        <div id="card-1" class="cards p-5 m-2">
-                            <h1>How to use a Legacy</h1>
-                            <ol>
-                                <li>Enter the code and download the avatar</li>
-                                <li>Upload the portrait photo of your beloved one</li>
-                                <li>Train the A.I.</li>
-                                <li>Start the conversation</li>
-                            </ol>
-                            <div class="text-center">
-                                <button class="btn">Start now</button>
-                            </div>
-                        </div>
+                    <div id="second-col" class="avatar-cols col-lg-4 col-12">
+                        <img src="imgs/avatar/avatar2.webp" class="img-thumbnail rounded-circle">
+                        <h4 class="mt-2">Record avatar voice</h4>
+                        <button class="btn my-3">Upload (.jpg .jpeg .png)</button>
+                        <p>Just use the microphone of your device to record your voice. You will be asked to read a few
+                            sentences, and the A.I. will generate your synthetized cloned voice, which you can use only
+                            as an integration of your avatar and with the permission of the individual whose voice is
+                            being recorded. You can skip this part if you do not feel comfortable. However, be aware all
+                            your data is kept safe and will be accessible by you and by you only. </p>
+                    </div>
+                    <div id="third-col" class="avatar-cols col-lg-4 col-12">
+                        <img src="imgs/avatar/avatar3.webp" class="img-thumbnail rounded-circle">
+                        <h4 class="mt-2">Train the A.I.</h4>
+                        <button class="btn my-3">Train A.I.</button>
+                        <p>Here comes the magic. Remember, your avatar is just a virtual machine, which performs actions
+                            based on a given input. Thanks to our A.I. software, you are able to make your avatar
+                            smarter and closer to a real human. You only have to share some personal details (ie
+                            hometown, name of college, spouse name, pet name, company mission, prices, pictures, you
+                            name it). Again, you can skip this part if you do not feel comfortable. However, be aware
+                            all your data is kept safe and will be accessible by you and by you only. </p>
                     </div>
                 </div>
-
-            </div>
-            <div class="col-lg-1 col-0"></div>
-
-        </div>
-        <div id="fourth-sec" class="row mb-0">
-            <hr>
-            <div class="col-lg-2 col-0"></div>
-            <div class="col-lg-8 col-12">
-                <h1 class="mt-5">"If you’re going to live, leave a legacy. Make a mark on the world that can’t be
-                    erased.”</h1>
             </div>
             <div class="col-lg-2 col-0"></div>
-            <span class="text-end mb-5">Maya Angelou</span>
-            <hr>
         </div>
-
     </div>
 
     <footer>
