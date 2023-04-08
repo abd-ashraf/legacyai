@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: Poppins, Lato, sans-serif;
+    background: transparent;
+    color: #ffffff;
+}
+:root {
+    --header-color: #0a403a;
+    --bg-color: #fff7f2;
+    --box-color: #ffffff;
+    --login-register-color: #ed920f;
+    --heading-font-color: #0A403A;
+
+}
+
+nav {
+    background-color: #0A403A;
+    font-weight: 700;
+}
+
+#top-nav {
+    color: #fff;
+    font-weight: 700;
+}
+#top-nav a {
+    color: #ed920f;
+    background-color: #0A403A;
+}
+#top-nav ul {
+    color: #fff;
+    background-color: #0A403A;
+}
+#top-nav ul li a{
+    color: #fff;
+    background-color: #0A403A;
+}
+#dropdown-icon {
+    vertical-align: -0.3em;
+    margin-right: 10px;
+    color: #ed920f;
+}
+#bell-icon {
+    vertical-align: -0.3em;
+    margin-right: 10px;
+    color: #ed920f;
+}
+#login-btn {
+    background-color: #ed920f;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#bottom-nav {
+    font-family: Playfair Display;
+}
+#bottom-nav a {
+    color: #ed920f;
+}
+#bottom-nav ul li {
+    font-size: 14px;
+}
+#bottom-nav ul li.active span {
+    color: #ed920f;
+}
+
+@media screen and (max-width: 992px) {
+    #second-col {
+        padding: 0!important;
+        text-align: center;
+    }
+    #second-col-div1 {
+        padding: 0!important;
+    }
+}
+
+footer {
+    background-color: #0A403A;
+    padding: 40px;
+}
+footer #logo-section a {
+    color: #ed920f;
+    background-color: #0A403A;
+}
+footer li {
+    list-style: none;
+}
