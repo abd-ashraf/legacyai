@@ -10,14 +10,67 @@
     --box-color: #ffffff;
     --login-register-color: #ed920f;
     --heading-font-color: #0A403A;
-
 }
 
+body {
+    background-color: #fff7f2!important;
+}
+p {font-size: 18px;}
+
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    h1 {font-size: 30px;}
+    h3 {font-size: 20px;}
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    h1 {font-size: 36px;}
+    h3 {font-size: 26px;}
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    h1 {font-size: 40px;}
+    h3 {font-size: 30px;}
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    h1 {font-size: 50px;}
+    h3 {font-size: 32px;}
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    h1 {font-size: 56px;}
+    h3 {font-size: 36px;}
+    p {font-size: 18px;}
+    .cards {
+        position: relative;
+        bottom: 0px!important;
+    }
+    #fourth-sec {
+        position: relative;
+        bottom: 0px!important;
+        margin-top: 30px!important;
+    }
+    #main-headings {
+        padding-top: 50px!important;
+    }
+    #second-sec {
+        padding: 20px!important;
+    }
+}
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
+
+/* Header Navbar */
 nav {
     background-color: #0A403A;
     font-weight: 700;
 }
-
 #top-nav {
     color: #fff;
     font-weight: 700;
@@ -62,7 +115,6 @@ nav {
 #bottom-nav ul li.active span {
     color: #ed920f;
 }
-
 @media screen and (max-width: 992px) {
     #second-col {
         padding: 0!important;
@@ -72,7 +124,7 @@ nav {
         padding: 0!important;
     }
 }
-
+/* Footer */
 footer {
     background-color: #0A403A;
     padding: 40px;
@@ -83,4 +135,83 @@ footer #logo-section a {
 }
 footer li {
     list-style: none;
+}
+
+/* Main Section HomePage Heading and bg image */
+#main-section {
+    background-image: url('imgs/forest.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+}
+#headings{
+}
+#main-section h3 {
+    color: #ed920f;
+}
+#main-section h1 {
+}
+
+/* Second Section Portfolio Pic and Text */
+#second-sec {
+}
+#second-sec-text {
+    background-color: #fff;
+}
+#second-sec-text h1 {
+    color: #0a403a;
+    font-size: 56px;
+    font-family: Playfair Display;
+}
+#second-sec-text h3 {
+    color: #ed920f;
+    font-size: 30px;
+    font-family: Playfair Display;
+}
+#second-sec-text p {
+    color: #0A403A;
+    font-size: 18px;
+}
+#second-sec-text button {
+    background-color: #ed920f;
+    color: #fff;
+}
+#second-sec-text #social-links i {
+    color: #0A403A;
+}
+/* Third Section bg image and cards */
+.cards {
+    background-color:#ffffff;
+}
+.cards h1 {
+    color: #0A403A;
+    font-family: Playfair Display;
+    padding: 10px;
+}
+.cards ol li {
+    color: #0A403A;
+}
+.cards button {
+    background-color: #ed920f;
+    color: #fff;
+}
+#card-1 {
+    position: relative;
+    bottom: 250px;
+}
+/* Fourth Section */
+#fourth-sec {
+    margin: 0px 50px 50px 50px;
+    position: relative;
+    bottom: 170px;
+}
+#fourth-sec hr {
+    border: 3px solid #ed920f;
+}
+#fourth-sec h1 {
+    color: #0A403A;
+}
+#fourth-sec span {
+    color: #ed920f;
 }
