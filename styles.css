@@ -10,12 +10,57 @@
     --box-color: #ffffff;
     --login-register-color: #ed920f;
     --heading-font-color: #0A403A;
+    --primary-color: #ed920f;
+    --secondary-color: #0A403A;
 }
 
 body {
     background-color: #fff7f2!important;
 }
 p {font-size: 18px;}
+
+/* Import feature font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* feature elements styles to match wix styles */
+
+/* Typography */
+h1, h2, h3, h4, h5, h6, .feature-text {
+    font-family: 'Playfair Display', serif !important;
+}
+h1 {
+    font-size: 56px !important;
+    font-weight: bold !important;
+}
+h2 {
+    font-size: 47px !important;
+    font-weight: bold !important;
+}
+h4 {
+    font-size: 27px !important;
+    font-weight: bold !important;
+}
+
+/* UI Elements */
+.button {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    padding: 8px 28px !important;
+    outline: none !important;
+    border: 1px solid var(--primary-color) !important;
+    border-radius: 0% !important;
+}
+.button:hover {
+    background-color: white !important;
+    border: 1px solid var(--primary-color) !important;
+    color: var(--primary-color) !important;
+}
+.primary-color {
+    color: var(--primary-color) !important;
+}
+.secondary-color {
+    color: var(--secondary-color) !important;
+}
 
  /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -100,8 +145,10 @@ nav {
 #login-btn {
     background-color: #ed920f;
     font-size: 17px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 8px 28px;
+    outline: none;
+    border: none;
+    border-radius: 0%;
 }
 #bottom-nav {
     font-family: Playfair Display;
@@ -140,10 +187,13 @@ footer li {
 /* Main Section HomePage Heading and bg image */
 #main-section {
     background-image: url('imgs/forest.jpeg');
+    background-color: #cccccc;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #cccccc;
+
+    margin-top: -50px;
 }
 #headings{
 }
@@ -164,7 +214,7 @@ footer li {
     font-size: 56px;
     font-family: Playfair Display;
 }
-#second-sec-text h3 {
+#second-sec-text h4 {
     color: #ed920f;
     font-size: 30px;
     font-family: Playfair Display;
@@ -184,17 +234,13 @@ footer li {
 .cards {
     background-color:#ffffff;
 }
-.cards h1 {
+.cards h2 {
     color: #0A403A;
     font-family: Playfair Display;
     padding: 10px;
 }
 .cards ol li {
     color: #0A403A;
-}
-.cards button {
-    background-color: #ed920f;
-    color: #fff;
 }
 #card-1 {
     position: relative;
