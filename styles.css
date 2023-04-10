@@ -43,6 +43,33 @@ h4 {
 .text-bold {
     font-weight: bold !important;
 }
+.text-normal {
+    font-weight: normal !important;
+}
+.text-1 {
+    font-size: 14px !important;
+}
+.text-2 {
+    font-size: 18px !important;
+}
+.text-3 {
+    font-size: 20px !important;
+}
+.text-4 {
+    font-size: 22px !important;
+}
+.text-5 {
+    font-size: 24px !important;
+}
+.text-6 {
+    font-size: 26px !important;
+}
+.text-7 {
+    font-size: 28px !important;
+}
+.text-8 {
+    font-size: 30px !important;
+}
 
 /* UI Elements */
 .button {
@@ -63,6 +90,19 @@ h4 {
 }
 .secondary-color {
     color: var(--secondary-color) !important;
+}
+.nav-link {
+}
+.nav-link span {
+    color: white !important;
+    text-decoration: none !important;
+    transition: 0.2s;
+}
+.nav-link span:hover {
+    color: var(--primary-color) !important;
+}
+.active a span {
+    color: var(--primary-color) !important;
 }
 
  /* X-Small devices (portrait phones, less than 576px) */
