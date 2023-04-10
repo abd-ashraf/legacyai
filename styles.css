@@ -40,6 +40,9 @@ h4 {
     font-size: 27px !important;
     font-weight: bold !important;
 }
+.text-bold {
+    font-weight: bold !important;
+}
 
 /* UI Elements */
 .button {
@@ -189,11 +192,9 @@ footer li {
     background-image: url('imgs/forest.jpeg');
     background-color: #cccccc;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center -150px;
     background-repeat: no-repeat;
     background-size: cover;
-
-    margin-top: -50px;
 }
 #headings{
 }

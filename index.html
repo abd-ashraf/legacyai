@@ -102,8 +102,8 @@
             <div class="col-2"></div>
             <div id="main-headings" class="col-8 d-flex flex-column justify-content-end pt-lg-5">
                 <h3>Leave a trace.</h3>
-                <h1>Upload a picture of yourself and create an Avatar that
-                    can be shared with anyone who wants to talk to you.</h1>
+                <p class="display-6 text-bold">Upload a picture of yourself and create an Avatar that
+                    can be shared with anyone who wants to talk to you.</p>
             </div>
             <div class="col-2"></div>
 
@@ -262,7 +262,7 @@
         $(document).ready(function() {
             $(window).scroll(function() {
                 var scrollTop = $(this).scrollTop();
-                $('#main-section').css('background-position', 'center ' + (scrollTop / 5 + 'px'));
+                $('#main-section').css('background-position', 'center ' + ((scrollTop / 5 - 150) + 'px'));
             });
         });
     </script>
